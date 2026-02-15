@@ -1,3 +1,4 @@
+
 package actioninfo
 
 import "log"
@@ -25,7 +26,6 @@ func Info(dataset []string, dp DataParser) {
 			continue
 		}
 
-	
 		log.Println(info)
 	}
 }
