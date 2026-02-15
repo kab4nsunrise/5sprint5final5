@@ -1,9 +1,20 @@
 package personaldata
 
+import "fmt"
+
+
 type Personal struct {
-	// TODO: добавить поля
+	Name   string  // Имя пользователя
+	Weight float64 // Вес пользователя в килограммах
+	Height float64 // Рост пользователя в метрах
 }
 
+
 func (p Personal) Print() {
-	// TODO: реализовать функцию
+	fmt.Printf(
+		"Имя: %s\nВес: %.2f кг.\nРост: %.2f м.\n",
+		p.Name,
+		p.Weight,
+		p.Height,
+	)
 }
