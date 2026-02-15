@@ -44,7 +44,6 @@ func (ds *DaySteps) Parse(datastring string) (err error) {
 		return fmt.Errorf("длительность должна быть положительной")
 	}
 
-	// Все проверки пройдены — записываем данные в поля структуры.
 	ds.Steps = steps
 	ds.Duration = duration
 	return nil
