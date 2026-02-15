@@ -2,7 +2,6 @@ package personaldata
 
 import "fmt"
 
-
 type Personal struct {
 	Name   string  // Имя пользователя
 	Weight float64 // Вес пользователя в килограммах
